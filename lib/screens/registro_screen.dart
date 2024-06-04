@@ -1,4 +1,4 @@
-import 'package:exemplo_firebase/services/auth_service.dart';
+import 'package:exemplo2_firebase/services/auth_service.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -76,10 +76,10 @@ class _RegistroScreenState extends State<RegistroScreen> {
         );
         return null;
       }
-      //snackbar
+    } else {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text('Preencha todos os campos'),
+        const SnackBar(
+          content: Text('Senhas não conferem'),
         ),
       );
       return null;
