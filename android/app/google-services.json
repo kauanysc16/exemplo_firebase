@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "395299422175",
+    "project_id": "fir-kauany",
+    "storage_bucket": "fir-kauany.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395299422175:android:ae022c1981046520194e6a",
+        "android_client_info": {
+          "package_name": "com.teste.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhe5MgPFEsS5tUyG_wOKzFXJoKM-Mwkkk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
